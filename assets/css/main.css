@@ -4627,3 +4627,11 @@ h1 {
     font-size: 2.5em;
   }
 }
+
+.zone-card a {
+  font-size: 5px;   /* small font */
+  line-height: 1.2;  /* tighter spacing */
+  display: block;    /* ensures it doesn't overflow */
+  text-overflow: ellipsis; /* optional, trims overflow with ... */
+  overflow: hidden;
+}
