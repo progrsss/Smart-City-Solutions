@@ -60,10 +60,10 @@
 .light-background,
 .dark-background,
 .section,
-.footer{
+.footer,
+.header {
   background: transparent !important;
 }
-
 
 
 /* Smooth scroll */
@@ -159,13 +159,15 @@ h6 {
 /*--------------------------------------------------------------
 # Global Header
 --------------------------------------------------------------*/
-
 .header {
-  background-color: rgba(255,255,255,0.95) !important;
-  color: var(--default-color) !important;
-  z-index: 9999 !important;
+  --background-color: rgba(255, 255, 255, 0);
+  --heading-color: #000000;
+  color: var(--default-color);
+  background-color: var(--background-color);
+  padding: 20px 0;
+  transition: all 0.5s;
+  z-index: 997;
 }
-
 
 .header .logo {
   line-height: 1;
@@ -4008,13 +4010,6 @@ h1 {
   transition: all 0.3s ease;
   cursor: pointer;
   border: 2px solid transparent;
-  width: 300px; /* Fixed width */
-  height: 300px; /* Fixed height */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
 }
 
 .sensor-box:hover {
