@@ -4010,6 +4010,13 @@ h1 {
   transition: all 0.3s ease;
   cursor: pointer;
   border: 2px solid transparent;
+  width: 400px; /* Fixed width */
+  height: 300px; /* Fixed height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
 }
 
 .sensor-box:hover {
