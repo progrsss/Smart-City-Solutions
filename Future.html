@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Smart City Solutions</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Selecao
+  * Template URL: https://bootstrapmade.com/selecao-bootstrap-template/
+  * Updated: Aug 07 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="starter-page-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <h1 class="sitename">Smart City SolutionsS</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active">Home</a></li>
+          <li class="dropdown solutions">
+              <a href="#"><span>Smart Solutions</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+             <ul>
+            <li><a href="#smart-urban">Smart Urban & Planning</a></li>
+            <li><a href="#smart-transportation">Smart Transportation & Mobility</a></li>
+            <li><a href="#iot-infrastructure">Internet of Things & Infrastracture </a></li>
+            <li><a href="#smart-grids">Smart Grids & Energy Management</a></li>
+            <li><a href="#sustainability">Sustainability Initiatives</a></li>
+            </ul>
+         </li>
+          <li><a href="#future">Future</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#team">Team</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title dark-background">
+      <div class="container position-relative">
+        <h1>Future</h1>
+        <nav class="breadcrumbs">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li class="current">Future</li>
+          </ol>
+        </nav>
+      </div>
+    </div><!-- End Page Title -->
+
+        <!-- ======= Future of Smart City Solutions Section ======= -->
+<section id="future" class="services">
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Future of Smart City Solutions</h2>
+    <p>Discover how tomorrow's cities will evolve with smarter mobility, renewable energy, advanced IoT, and citizen-focused governance.</p>
+  </div><!-- End Section Title -->
+
+  <div class="container">
+    <div class="future-grid-container">
+      <div class="future-solutions-grid">
+        
+        <!-- Urban Mobility -->
+        <div class="future-card" onclick="showFutureDetail('mobility')">
+          <div class="future-icon">🚗</div>
+          <h3>Urban Mobility</h3>
+          <p>Self-driving buses, hyperloop trains, and AI-driven traffic will revolutionize how we move around cities.</p>
+        </div>
+
+        <!-- Energy & Environment -->
+        <div class="future-card" onclick="showFutureDetail('energy')">
+          <div class="future-icon">⚡</div>
+          <h3>Energy & Environment</h3>
+          <p>Smart grids powered by 100% renewable energy will make cities carbon-neutral and sustainable.</p>
+        </div>
+
+        <!-- IoT & Connectivity -->
+        <div class="future-card" onclick="showFutureDetail('iot')">
+          <div class="future-icon">📡</div>
+          <h3>IoT & Connectivity</h3>
+          <p>6G networks and digital twins will connect billions of devices, enabling real-time monitoring and decision-making.</p>
+        </div>
+
+        <!-- Governance & Citizens -->
+        <div class="future-card" onclick="showFutureDetail('governance')">
+          <div class="future-icon">🏛️</div>
+          <h3>Governance & Citizens</h3>
+          <p>Blockchain voting, AI-powered policies, and virtual city halls will make governance more transparent and inclusive.</p>
+        </div>
+
+        <!-- Public Safety & Health -->
+        <div class="future-card" onclick="showFutureDetail('safety')">
+          <div class="future-icon">🛡️</div>
+          <h3>Public Safety & Health</h3>
+          <p>AI-driven healthcare, predictive policing, and advanced disaster systems will keep citizens safer and healthier.</p>
+        </div>
+
+        <!-- Smart Living -->
+        <div class="future-card" onclick="showFutureDetail('living')">
+          <div class="future-icon">🏠</div>
+          <h3>Smart Living</h3>
+          <p>Homes powered by IoT and renewable energy will adapt to human needs while conserving resources.</p>
+        </div>
+
+      </div>
+
+      <!-- Detail Panel -->
+      <div class="future-detail-panel">
+        <div id="future-default">
+          <div class="future-default-message">
+            <div class="future-default-icon">👆</div>
+            <h3>Select a Future Solution</h3>
+            <p>Click on any future smart city solution to view detailed features and innovations.</p>
+          </div>
+        </div>
+
+        <!-- Urban Mobility Details -->
+        <div id="future-mobility" class="future-detail-content">
+          <div class="future-detail-header">
+            <div class="future-detail-icon">🚗</div>
+            <h2>Urban Mobility</h2>
+          </div>
+          <p class="future-detail-description">Self-driving buses, hyperloop trains, and AI-driven traffic will revolutionize how we move around cities. Future urban transportation will be seamless, efficient, and environmentally friendly.</p>
+          <h4>Key Innovations:</h4>
+          <ul class="future-features-list">
+            <li><i class="bi bi-check-circle"></i> Autonomous vehicle networks</li>
+            <li><i class="bi bi-check-circle"></i> Hyperloop systems for rapid inter-city travel</li>
+            <li><i class="bi bi-check-circle"></i> AI traffic optimization in real-time</li>
+            <li><i class="bi bi-check-circle"></i> Flying taxi infrastructure for urban air mobility</li>
+            <li><i class="bi bi-check-circle"></i> Integrated multi-modal transport apps</li>
+          </ul>
+          <div class="future-impact">
+            <h4>Expected Impact:</h4>
+            <p>Reduce commute times by 40%, decrease traffic accidents by 90%, and lower transportation emissions by 75%.</p>
+          </div>
+        </div>
+
+        <!-- Energy & Environment Details -->
+        <div id="future-energy" class="future-detail-content">
+          <div class="future-detail-header">
+            <div class="future-detail-icon">⚡</div>
+            <h2>Energy & Environment</h2>
+          </div>
+          <p class="future-detail-description">Smart grids powered by 100% renewable energy will make cities carbon-neutral and sustainable. Energy distribution will be optimized in real-time based on consumption patterns.</p>
+          <h4>Key Innovations:</h4>
+          <ul class="future-features-list">
+            <li><i class="bi bi-check-circle"></i> AI-optimized smart grids</li>
+            <li><i class="bi bi-check-circle"></i> Rooftop solar integration across all buildings</li>
+            <li><i class="bi bi-check-circle"></i> Vehicle-to-grid energy systems</li>
+            <li><i class="bi bi-check-circle"></i> Dynamic energy pricing based on demand</li>
+            <li><i class="bi bi-check-circle"></i> Urban microgrids for resilience</li>
+          </ul>
+          <div class="future-impact">
+            <h4>Expected Impact:</h4>
+            <p>Achieve 100% renewable energy usage, reduce energy costs by 30%, and eliminate carbon emissions from city operations by 2040.</p>
+          </div>
+        </div>
+
+        <!-- IoT & Connectivity Details -->
+        <div id="future-iot" class="future-detail-content">
+          <div class="future-detail-header">
+            <div class="future-detail-icon">📡</div>
+            <h2>IoT & Connectivity</h2>
+          </div>
+          <p class="future-detail-description">6G networks and digital twins will connect billions of devices, enabling real-time monitoring and decision-making. Every aspect of the city will be interconnected and responsive.</p>
+          <h4>Key Innovations:</h4>
+          <ul class="future-features-list">
+            <li><i class="bi bi-check-circle"></i> 6G network infrastructure with near-zero latency</li>
+            <li><i class="bi bi-check-circle"></i> City-wide digital twin simulations</li>
+            <li><i class="bi bi-check-circle"></i> Ubiquitous sensor networks monitoring all urban systems</li>
+            <li><i class="bi bi-check-circle"></i> Edge computing capabilities for real-time processing</li>
+            <li><i class="bi bi-check-circle"></i> Quantum-safe encryption for data security</li>
+          </ul>
+          <div class="future-impact">
+            <h4>Expected Impact:</h4>
+            <p>Enable real-time city management, improve emergency response times by 60%, and create new data-driven services for citizens.</p>
+          </div>
+        </div>
+
+        <!-- Governance & Citizens Details -->
+        <div id="future-governance" class="future-detail-content">
+          <div class="future-detail-header">
+            <div class="future-detail-icon">🏛️</div>
+            <h2>Governance & Citizens</h2>
+          </div>
+          <p class="future-detail-description">Blockchain voting, AI-powered policies, and virtual city halls will make governance more transparent and inclusive. Citizens will have direct input into decision-making processes.</p>
+          <h4>Key Innovations:</h4>
+          <ul class="future-features-list">
+            <li><i class="bi bi-check-circle"></i> Blockchain-based voting systems</li>
+            <li><i class="bi bi-check-circle"></i> AI-powered policy simulation and impact assessment</li>
+            <li><i class="bi bi-check-circle"></i> Virtual city hall meetings with holographic participation</li>
+            <li><i class="bi bi-check-circle"></i> Participatory budgeting platforms</li>
+            <li><i class="bi bi-check-circle"></i> Open data initiatives with real-time transparency</li>
+          </ul>
+          <div class="future-impact">
+            <h4>Expected Impact:</h4>
+            <p>Increase citizen participation by 300%, reduce corruption through transparency, and improve policy outcomes with data-driven decisions.</p>
+          </div>
+        </div>
+
+        <!-- Public Safety & Health Details -->
+        <div id="future-safety" class="future-detail-content">
+          <div class="future-detail-header">
+            <div class="future-detail-icon">🛡️</div>
+            <h2>Public Safety & Health</h2>
+          </div>
+          <p class="future-detail-description">AI-driven healthcare, predictive policing, and advanced disaster systems will keep citizens safer and healthier. Proactive systems will prevent issues before they occur.</p>
+          <h4>Key Innovations:</h4>
+          <ul class="future-features-list">
+            <li><i class="bi bi-check-circle"></i> Predictive policing algorithms for crime prevention</li>
+            <li><i class="bi bi-check-circle"></i> AI-powered diagnostic systems with 99% accuracy</li>
+            <li><i class="bi bi-check-circle"></i> Smart emergency response networks with drone support</li>
+            <li><i class="bi bi-check-circle"></i> Disaster prediction and automated management systems</li>
+            <li><i class="bi bi-check-circle"></i> Remote health monitoring with wearable technology</li>
+          </ul>
+          <div class="future-impact">
+            <h4>Expected Impact:</h4>
+            <p>Reduce crime rates by 50%, decrease emergency response times to under 5 minutes, and increase life expectancy by 5 years through preventive healthcare.</p>
+          </div>
+        </div>
+
+        <!-- Smart Living Details -->
+        <div id="future-living" class="future-detail-content">
+          <div class="future-detail-header">
+            <div class="future-detail-icon">🏠</div>
+            <h2>Smart Living</h2>
+          </div>
+          <p class="future-detail-description">Homes powered by IoT and renewable energy will adapt to human needs while conserving resources. Living spaces will be responsive, efficient, and comfortable.</p>
+          <h4>Key Innovations:</h4>
+          <ul class="future-features-list">
+            <li><i class="bi bi-check-circle"></i> Adaptive home automation learning resident preferences</li>
+            <li><i class="bi bi-check-circle"></i> Energy-positive buildings generating surplus power</li>
+            <li><i class="bi bi-check-circle"></i> Smart waste management with automated sorting</li>
+            <li><i class="bi bi-check-circle"></i> Personalized environment controls for health and comfort</li>
+            <li><i class="bi bi-check-circle"></i> Community resource sharing platforms</li>
+          </ul>
+          <div class="future-impact">
+            <h4>Expected Impact:</h4>
+            <p>Reduce household energy consumption by 60%, decrease water usage by 40%, and improve quality of life indicators by 25% through optimized living conditions.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Future Section -->
+
+  </main>
+
+  <footer id="footer" class="footer dark-background">
+    <div class="container">
+      <h3 class="sitename">Selecao</h3>
+      <p>Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe commodi placeat.</p>
+      <div class="social-links d-flex justify-content-center">
+        <a href=""><i class="bi bi-twitter-x"></i></a>
+        <a href=""><i class="bi bi-facebook"></i></a>
+        <a href=""><i class="bi bi-instagram"></i></a>
+        <a href=""><i class="bi bi-skype"></i></a>
+        <a href=""><i class="bi bi-linkedin"></i></a>
+      </div>
+      <div class="container">
+        <div class="copyright">
+          <span>Copyright</span> <strong class="px-1 sitename">Selecao</strong> <span>All Rights Reserved</span>
+        </div>
+        <div class="credits">
+          <!-- All the links in the footer should remain intact. -->
+          <!-- You can delete the links only if you've purchased the pro version. -->
+          <!-- Licensing information: https://bootstrapmade.com/license/ -->
+          <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
