@@ -60,8 +60,7 @@
 .light-background,
 .dark-background,
 .section,
-.footer,
-.header {
+.footer {
   background: transparent !important;
 }
 
