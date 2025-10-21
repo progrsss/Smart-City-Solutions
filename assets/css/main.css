@@ -4688,3 +4688,28 @@ img {
   display: block;
 }
 
+/* Mobile View */
+@media (max-width: 576px) {
+  .hero {
+    min-height: 80vh;
+    padding: 50px 15px;
+  }
+
+  .hero h2 {
+    font-size: 24px;
+  }
+
+  .hero p {
+    font-size: 14px;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  footer {
+    text-align: center;
+    padding: 25px 10px;
+  }
+}
