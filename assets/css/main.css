@@ -28,7 +28,7 @@
 }
 
 * {
-  color: #000000 !important;
+  color: #000000;
 }
 
 /* Nav Menu Colors - The following color variables are used specifically for the navigation menu. They are separate from the global colors to allow for more customization options */
@@ -81,6 +81,7 @@ body {
 
   background: url("../img/bg5.jpg") no-repeat center center fixed;
   background-size: cover;
+  background-attachment: scroll; /* Fix mobile zoom/scroll issues */
 }
 
 a {
@@ -335,7 +336,7 @@ h6 {
 }
 
 /* Navmenu - Mobile */
-@media (max-width: 768px) {
+@media (max-width: 1199px) {
   .mobile-nav-toggle {
     color: var(--nav-color);
     font-size: 28px;
@@ -4635,3 +4636,20 @@ h1 {
   text-overflow: ellipsis; /* optional, trims overflow with ... */
   overflow: hidden;
 }
+
+
+img, video, iframe {
+  max-width: 100%;
+  height: auto;
+}
+
+section, .container, .row {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
